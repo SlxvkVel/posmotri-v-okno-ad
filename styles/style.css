@@ -300,9 +300,6 @@ ol {
     font-size: 18px;
     line-height: 16.2px;
     color: white;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
