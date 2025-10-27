@@ -50,6 +50,15 @@ ol {
     background-color: #D9D9D9;
 }
 
+.content {
+    display: grid;
+    grid-template-columns: 711px 399px;
+    align-items: end; 
+    gap: 30px;
+    width: 1140px;
+    margin: auto;
+}
+
 .visually-hidden {
     position: absolute;
     overflow: hidden;
@@ -58,15 +67,6 @@ ol {
     block-size: 1px;
     clip-path: inset(50%);
     white-space: nowrap;
-}
-
-.content {
-    display: grid;
-    grid-template-columns: 711px 399px;
-    align-items: end; 
-    gap: 30px;
-    width: 1140px;
-    margin: auto;
 }
 
 .result {
@@ -155,7 +155,6 @@ ol {
     display: block;
     cursor: pointer;
     position: relative;
-    flex-shrink: 0;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
@@ -290,7 +289,7 @@ ol {
 }
 
 .content__video-card-description-container {
-    flex: 1;
+    width: 196px;      
     padding-right: 5px;
 }
 
@@ -301,6 +300,7 @@ ol {
     line-height: 16.2px;
     color: white;
     overflow: hidden;
+    max-height: 64.8px; 
 }
 
 .content__video-card-thumbnail {
