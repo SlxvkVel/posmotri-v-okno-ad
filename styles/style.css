@@ -157,7 +157,7 @@ ol {
     position: relative;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
     background-color: white;
     inline-size: 15px;
     block-size: 15px;
